@@ -41,7 +41,7 @@ int main(){
         }
         for (int j = 2; j * j <= z[i]; j++){
             if (z[i] % j != 0){
-                z[i] = 1;
+                z[i] = 0;
             }
         }
     }
